@@ -1,4 +1,4 @@
-# EXERCÍCIO 1 - FUNÇÕES: Criar uma "saudacao" para qualquer nome
+# EXERCÍCIO 1 - FUNÇÕES: Criar uma "saudacao" para qualquer nome: Feito
 
 ''' def saudacao():
     nome = input("Insira o seu nome: ")
@@ -7,7 +7,7 @@
 saudacao() '''
 
 
-# EXERCÍCIO 2 - FUNÇÕES: Criar uma "soma_produto" para somar e multiplicar 2 números
+# EXERCÍCIO 2 - FUNÇÕES: Criar uma "soma_produto" para somar e multiplicar 2 números: Feito
 
 ''' a = int(input("Digite um número: "))
 b = int(input("Digite um segundo número: "))
@@ -21,7 +21,7 @@ print(f"A soma é: {resultado_soma}")
 print(f"A produto é: {resultado_multiplicar}") '''
 
 
-# EXERCÍCIO 3 - FUNÇÕES: Criar uma variável local em uma função e modificá-la
+# EXERCÍCIO 3 - FUNÇÕES: Criar uma variável local em uma função e modificá-la: Feito
 
 ''' def var_local(y):
     x = 25
@@ -31,7 +31,7 @@ valor = var_local(y=1) # PEGANDO O VALOR DE 'Y' DA FUNÇÃO
 print(valor * 3) # TENTANDO ALTERAR O VALOR '''
 
 
-# EXERCÍCIO 4 - FUNÇÕES: Criar um "conta_palavras" para contar o número de palavras de uma String   
+# EXERCÍCIO 4 - FUNÇÕES: Criar um "conta_palavras" para contar o número de palavras de uma String: Feito
 
 ''' frase = input("Escreva uma frase: ")
 def conta_palavras(palavra, contairor=" "):
@@ -39,13 +39,13 @@ def conta_palavras(palavra, contairor=" "):
 print(f"A quantidade de palavras é: {conta_palavras(frase)}") '''
 
 
-# EXERCÍCIO 5 - FUNÇÕES: Criar uma função lambda para uma lista dos ^2 em uma lista
+# EXERCÍCIO 5 - FUNÇÕES: Criar uma função lambda para uma lista dos ^2 em uma lista: Feito
 
 ''' numeros = [4, 7, 11, 3, 8, 10]
 quadrado = list(map(lambda x: x * x, numeros))
 print(quadrado) '''
 
-# EXERCÍCIO 6 - FUNÇÕES: Criar uma função recursiva para calcular o n-ésimo termo da sequência de Fibonacci
+# EXERCÍCIO 6 - FUNÇÕES: Criar uma função recursiva para calcular o n-ésimo termo da sequência de Fibonacci: Feito
 
 ''' def fibonacci(n):
     if n <= 1:
