@@ -40,18 +40,32 @@ sucessor = numero + 1
 print(f"O número seguinte é: {sucessor}") '''
 
 
-# EXERCÍCIO 6 - Ler dois números, exibir o quociente e o resto da divisão inteira entre eles: 
-numero1 = int(input("Digite um número: "))
+# EXERCÍCIO 6 - Ler dois números, exibir o quociente e o resto da divisão inteira entre eles: FEITO
+''' numero1 = int(input("Digite um número: "))
 numero2 = int(input("Digite outro número: "))
 quociente = numero1 / numero2
 resto = numero1 % numero2
-print(f"O quociente é: {quociente} \nE o resto da divisão é: {resto}")
+print(f"O quociente é: {quociente} \nE o resto da divisão é: {resto}") '''
 
 
-# EXERCÍCIO 7 - 
+# EXERCÍCIO 7 - Idade da pessoa em dias e mostrar em anos, meses e dias: 
+''' idadeemdias = int(input("Digite sua idade em dias: "))
+idade = '''
+
 
 # EXERCÍCIO 8 - 
 
-# EXERCÍCIO 9 - 
+# EXERCÍCIO 9 - Converter temperatura em Fahrenheit para Celsius: FEITO
+''' fahrenheit = int(input("Digite uma temperatura em fahrenheit: "))
+celsius = (fahrenheit - 32) * 5/9
+print(f"A temperatura em Celsius é: {celsius}") '''
 
-# EXERCÍCIO 10 - 
+
+
+# EXERCÍCIO 10 - Converter um número menor que 32 para binário: FEITO
+''' numero = int(input("Digite um número: "))
+if numero < 32:
+    binario = numero % 2
+    print(f"O número em binário : {binario}")
+else:
+    pass '''

@@ -29,14 +29,14 @@
 # print(frutas)
 
 # EXERCÍCIOS "TUPLAS" - A: Feito
-# Seusius = (38.0, 40.0, 15.0, 45.8, 9.0)
-# listSeusius = []
+# Ceusius = (38.0, 40.0, 15.0, 45.8, 9.0)
+# listCeusius = []
 
-# for grau in Seusius:
+# for grau in Ceusius:
 #     fahrenheit = (grau * 1.8) + 32
 #     listSeusius.append(fahrenheit)
 # listSeusius = tuple (listSeusius)
-# print(listSeusius)
+# print(listCeusius)
 
 # EXERCÍCIOS "TUPLAS" - B: Feito
 # coordenadas = (-2, 3, -18.2, -4, 7, 94, 20)
