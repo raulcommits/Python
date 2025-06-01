@@ -1,0 +1,22 @@
+class ControleTemperatura:
+    def __init__(self, temperatura):
+        self.__temperatura = temperatura
+        
+    @property
+    def temperatura(self):
+        return self.__temperatura
+    
+    @temperatura.setter
+    def temperatura(self, temperatura):
+        if temperatura > 100 or temperatura < -50:
+            print("Temperatura inválida! Deve estar entre -50 e 100 graus Celsius.")
+        else:
+            self.__temperatura = temperatura
+    
+    @converter_para_fahrenheit
+    def temperatura(self, temperatura, fahrenheit):
+        self.fahrenheit = fahrenheit
+        fahrenheit = temperatura * 1.8 + 32
+        return self.__fahrenheit
+
+celsius = ControleTemperatura(30)
