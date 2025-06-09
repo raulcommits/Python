@@ -6,4 +6,4 @@ import minha_calculadora
 print(minha_calculadora.soma(10, 6))
 print(minha_calculadora.subtracao(7, 20))
 print(minha_calculadora.multiplicacao(4, 6))
-print(minha_calculadora.divisao(16, 0))
+print(minha_calculadora.divisao(16, 2))
